@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
+
 }
 
 class MyApp extends StatelessWidget {
@@ -89,7 +90,7 @@ class MyApp extends StatelessWidget {
                 ),
                 ), onTap: () {}),
                 SizedBox(height:10,),
-                InkWell(child: const Text("Забыли пароль?", style: TextStyle(
+                InkWell(child: const Text("Забыл пароль?", style: TextStyle(
                       fontSize: 16,
                       color: Color(0xFF0079D0),
                     ),
@@ -98,6 +99,7 @@ class MyApp extends StatelessWidget {
                 Text("Case 2.2, author: Gorlanov AA"),
               ],),
             ),
+
           )
 
         ),
